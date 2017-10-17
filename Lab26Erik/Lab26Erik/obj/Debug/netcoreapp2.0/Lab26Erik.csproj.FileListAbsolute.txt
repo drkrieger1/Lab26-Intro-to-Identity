@@ -1,0 +1,11 @@
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\bin\Debug\netcoreapp2.0\Lab26Erik.deps.json
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\bin\Debug\netcoreapp2.0\Lab26Erik.runtimeconfig.json
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\bin\Debug\netcoreapp2.0\Lab26Erik.runtimeconfig.dev.json
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\bin\Debug\netcoreapp2.0\Lab26Erik.dll
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.csprojResolveAssemblyReference.cache
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.csproj.CoreCompileInputs.cache
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.AssemblyInfoInputs.cache
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.AssemblyInfo.cs
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\bin\Debug\netcoreapp2.0\Lab26Erik.pdb
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.dll
+C:\Users\shop2\source\repos\Lab26-Intro-to-Identity\Lab26Erik\Lab26Erik\obj\Debug\netcoreapp2.0\Lab26Erik.pdb
