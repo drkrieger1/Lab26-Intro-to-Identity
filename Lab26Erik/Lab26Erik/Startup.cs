@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Lab26Erik.Models;
+using Lab26Erik.Data;
+using Microsoft.AspNetCore.Identity;
 
 namespace Lab26Erik
 {
@@ -29,11 +31,21 @@ namespace Lab26Erik
 
             services.AddDbContext<Lab26ErikContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Lab26ErikContext")));
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Lab26ErikContext")));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>()
+                    .AddDefaultTokenProviders();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseAuthentication();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
